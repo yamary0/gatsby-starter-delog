@@ -1,9 +1,9 @@
 {
-  "title": "y.note",
-  "siteUrl": "https://modest-galileo-8705f6.netlify.app/",
-  "description": "Delog, a GatsbyJS and Netlify CMS starter for Designers and Developers",
+  "title": "yuzu.prive",
+  "siteUrl": "https://yuzu-privete.netlify.app/",
+  "description": "yuzuのプライベートを残すブログ、yuzu.prive(ユズ・プラベ)。",
   "home": {
-    "title": "Hi! I'm yuzu",
-    "description": "I have been specifically designed to become a digital home for designers and developers, help them build amazing professional looking websites with ease. You don't have to worry about nitty gritty of web hosting services to run a blog and yet take full advantage of CMS to manage content :)"
+    "title": "yuzuです.",
+    "description": "柚子が好きな人、yuzuです。私のプライベートでの出来事や思ったこと、感じた事などを載せています。基本的に、私のことを知らずに見ても何も得られないのでブラウザバックしてくださいm(__)m。 - from 2020.10.17."
   }
 }
