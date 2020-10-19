@@ -1,7 +1,7 @@
 ---
 template: BlogPost
 path: /未経験Webデザイナーが最初からWebデザイナーとして就職するのは厳しい【既卒就活】part1
-date: 2020-10-19T07:36:09.921Z
+date: 2020-10-13T07:36:09.921Z
 title: 未経験Webデザイナーが最初からWebデザイナーとして就職するのは厳しい【既卒就活】part1
 metaDescription: >-
   今日面接に行ってきました。就活アプリには、
