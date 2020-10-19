@@ -1,5 +1,5 @@
-$font-family: -apple-system,"Helvetica Neue",Arial,"Hiragino Kaku Gothic ProN","Hiragino Sans",Meiryo,sans-serif;
-
+$font-family: -apple-system,"Hiragino Kaku Gothic ProN","Hiragino Sans",Meiryo,sans-serif;
+// "Helvetica Neue",Arial,
 html,
 body {
   margin: 0;
@@ -9,7 +9,7 @@ body {
   margin-top: 0
 }
 body.light {
-  --primary-color: #381696;
+  --primary-color: #4d848b;
   --primary-text-color: #fff;
   --featured-bg: #493b8a;
   --featured-text: #fff;
@@ -29,17 +29,17 @@ body.light {
   --input-bg: var(--background);
 }
 body.dark {
-  --primary-color: #9984d5;
+  --primary-color: #4d848b;
   --primary-text-color: #fff;
   --featured-bg: #66578d;
   --featured-text: #fff;
   --secondary-color: #66578d;
-  --background: #0A041A;
+  --background: #25282A;
   --text-color: rgba(255,255,255,0.88);
   --text-secondary-color: rgba(255,255,255,0.66);
   --site-header: var(--background);
-  --card-bg: #181326;
-  --card-bdr: #181326;
+  --card-bg: #25282A;
+  --card-bdr: #25282A;
   --card-shadow: #020204;
   --btn-bg: var(--background);
   --btn-bdr: #d3d6e7;
@@ -104,16 +104,29 @@ a {
   color: var(--primary-color);
   text-decoration: none;
   font-weight: 900;
-  text-transform: uppercase;
+  // text-transform: uppercase;
 }
 .hero-header {
   padding: 0 0 64px;
   max-width: 980px;
 }
 .headline {
+  text-align: center;
   font-size: 36px;
   font-weight: 900;
   margin-bottom: 0.5rem;
+  display: flex;
+  justify-content: center;
+}
+.profile-icon {
+  padding: 0 10px;
+  border-radius: 100%;
+  max-width: 50px;
+  max-height: 50px;
+}
+.since-date {
+  width: 100%;
+  text-align: right;
 }
 .button {
   padding: 18px 27px;
@@ -156,6 +169,9 @@ a {
   > .blog-post-content {
     max-width: 768px;
     margin: 0 auto;
+    img {
+      border-radius: 9px;
+    }
   }
   > .blog-post-content *:last-child,
   > *:last-child {
