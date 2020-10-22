@@ -51,12 +51,7 @@ body.dark {
   --input-bg: var(--card-bg);
 }
 /* System Fonts as used by Medium and WordPress */
-body {
-  font-family: $font-family;
-  // border-top: 10px solid var(--primary-color);
-  background-color: var(--background);
-  color: var(--text-color);
-}
+
 a {
   color: var(--primary-color);
   text-decoration: none;
@@ -101,6 +96,7 @@ a {
   align-items: center;
 }
 .site-title a {
+  font-family: 'Comfortaa', cursive;
   color: var(--primary-color);
   text-decoration: none;
   font-weight: 900;
