@@ -6,8 +6,9 @@ title: Gatsby製のサイトにGoogle Fontsを導入する
 metaDescription: このページを見るだけで、以下の対象の方は自身のサイトにGoogle Fontsを導入することが出来ます。
 thumbnail: /assets/google_fonts_x_gatsby.gif
 ---
-このページを見るだけで、以下の対象の方は自身のサイトにGoogle Fontsを導入することが出来ます。\
-詳しく知ってから導入したい方は、[参考](#参考)からたどっていただければ良いかと思います。
+このページを見るだけで、以下の対象の方は自身のサイトにGoogle Fontsを導入することが出来ます。
+
+詳しく知ってから導入したい方は、参考からたどっていただければ良いかと思います。
 
 ## 対象
 
@@ -42,15 +43,17 @@ yarn add typeface-montserrat-alternates
 ### サイトにフォントをインポート(ゴロが良い)
 
 `gatsby-browser.js`に先ほど`npm of yarn`でインストールしたフォントを`import`します。
+
 ```javascript
-import "./src/styles/global.scss"　//サイトのメインスタイルシート
+import "./src/styles/global.scss"
+//サイトのメインスタイルシート
 
 import "typeface-montserrat-alternates"
 ```
+
 ここで`import`することによってすべてのスタイリング方法で使うことが出来ます。
 
-注釈※
-私の触っていた言語で読み込み順によって他モジュールを参照できないことがあったのですが、今回はスタイルシートの前後どちらでも大丈夫でした。
+注釈※ 私の触っていた言語で読み込み順によって他モジュールを参照できないことがあったのですが、今回はスタイルシートの前後どちらでも大丈夫でした。
 
 ### 実際にスタイリング
 
@@ -84,7 +87,7 @@ Google Fontで好きなフォントを選択し、`+ Select this style`を押し
 
  選択すると、初回は自動で・閉じてしまったら右上のアイコンから以下のページを開くことが出来ます。  
 
-Embedを押し、赤線部をコピーして[先ほど](サイトにスタイリング)のようにスタイルシートに貼り付けます。 
+Embedを押し、赤線部をコピーして先ほどのようにスタイルシートに貼り付けます。 
 
 ![embed fonts](/assets/font_family.jpg)
 
