@@ -81,7 +81,7 @@ body {
 
 ### font-familyの行の書き方
 
-Google Fontで好きなフォントを選択し、`+ Select this style`を押します。weightは今回のについては`font-family`の行をコピペするだけなので、どれでも大丈夫です。 
+Google Fontで好きなフォントを選択し、`+ Select this style`を押します。weightは今回のについては`font-family`の行をコピペするだけなので、どれでも大丈夫です。  
 
 ![choose fonts](/assets/choose_fonts.png)
 

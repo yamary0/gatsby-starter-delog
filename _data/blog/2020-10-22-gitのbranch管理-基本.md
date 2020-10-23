@@ -25,4 +25,3 @@ thumbnail: /assets/git_branch.gif
    branchを削除
 9. `git branch`\
     branch一覧を表示
-  
