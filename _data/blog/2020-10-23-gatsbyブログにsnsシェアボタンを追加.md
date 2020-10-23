@@ -169,5 +169,5 @@ articleTitle={data.site.siteMetadata.title}
 
 ## 参考
 
-[npm:react-share](https://www.npmjs.com/package/react-share)
-[GatsbyにShare機能、OGPタグをつける](https://tech-blog.yoshikiohashi.dev/posts/start-gatsby-blog-share)
+* [npm:react-share](https://www.npmjs.com/package/react-share)
+* [GatsbyにShare機能、OGPタグをつける](https://tech-blog.yoshikiohashi.dev/posts/start-gatsby-blog-share)
