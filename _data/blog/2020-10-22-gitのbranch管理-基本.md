@@ -1,6 +1,6 @@
 ---
 template: BlogPost
-path: /gitのbranch管理|基本
+path: /gitのbranch管理基本
 date: 2020-10-22T08:38:08.123Z
 title: gitのbranch管理|基本
 metaDescription: gitのbranchをとりあえず使えるようになります。複数のブランチを扱うなどな別ページへ。
