@@ -6323,7 +6323,7 @@ gatsby-plugin-dark-mode@^1.1.1:
   dependencies:
     prop-types "^15.5.7"
 
-gatsby-plugin-google-analytics@^2.1.36:
+gatsby-plugin-google-analytics@^2.3.19:
   version "2.3.19"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-google-analytics/-/gatsby-plugin-google-analytics-2.3.19.tgz#57e2567c63443efc0b83faf0bde18b621b29d8fc"
   integrity sha512-U8HVZU3y/LoaD2UEU5h7YNsPfdJcRF11byGtiM6xE7hYqWr2YFVaKMf6L/AiREPtgaoE+YB2XfbfDrk2wUtEUA==
