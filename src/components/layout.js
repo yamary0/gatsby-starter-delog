@@ -5,6 +5,7 @@ import SNSshare from "../components/SNSshare"
 import 'prismjs/themes/prism-okaidia.css';
 
 export default ({ children }) => {
+  const windowUrl = (typeof window !== 'undefined' && window.location.href) ? window.location.href : '';
   const data = useStaticQuery(
     graphql`
       query {
@@ -26,7 +27,7 @@ export default ({ children }) => {
       </header>
       {children}
       <footer className="site-footer">
-        <SNSshare articleUrl={window.location.href} articleTitle={data.site.siteMetadata.title} />
+        <SNSshare articleUrl={windowUrl} articleTitle={data.site.siteMetadata.title} />
         <p>&copy; {new Date().getFullYear()} yuzu</p>
       </footer>
     </div>
