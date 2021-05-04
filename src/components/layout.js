@@ -18,18 +18,32 @@ export default ({ children }) => {
     `
   )
   return (
-    <div className="site-wrapper">
-      <header className="site-header">
-        <div className="site-title">
-          <Link to="/">{data.site.siteMetadata.title}</Link>
-        </div>
-        <Navigation />
-      </header>
-      {children}
-      <footer className="site-footer">
-        <SNSshare articleUrl={windowUrl} articleTitle={data.site.siteMetadata.title} />
-        <p>&copy; {new Date().getFullYear()} yuzu</p>
-      </footer>
-    </div>
+    <>
+      <Helmet>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+        <script>
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-P12GHT4424');
+          `}
+        </script>
+      </Helmet>
+      <div className="site-wrapper">
+        <header className="site-header">
+          <div className="site-title">
+            <Link to="/">{data.site.siteMetadata.title}</Link>
+          </div>
+          <Navigation />
+        </header>
+        {children}
+        <footer className="site-footer">
+          <SNSshare articleUrl={windowUrl} articleTitle={data.site.siteMetadata.title} />
+          <p>&copy; {new Date().getFullYear()} yuzu</p>
+        </footer>
+      </div>
+  
+    </>
   )
 }
