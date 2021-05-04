@@ -20,7 +20,7 @@ export default ({ children }) => {
   return (
     <>
       <Helmet>
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-P12GHT4424"></script>
         <script>
           {`
             window.dataLayer = window.dataLayer || [];
