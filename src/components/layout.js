@@ -3,6 +3,7 @@ import { Link, useStaticQuery, graphql } from "gatsby"
 import Navigation from "../components/navigation"
 import SNSshare from "../components/SNSshare"
 import 'prismjs/themes/prism-okaidia.css';
+import {Helmet} from "react-helmet";
 
 export default ({ children }) => {
   const windowUrl = (typeof window !== 'undefined' && window.location.href) ? window.location.href : '';
